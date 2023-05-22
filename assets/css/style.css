@@ -1,0 +1,44 @@
+@font-face {
+	font-family: Digital;
+	src: url(../digital_7/digital-7.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+}
+
+.clock {
+    height: 100%;
+    font-family: "Digital", monospace;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #daf6ff;
+}
+
+.time {
+    letter-spacing: 0.5rem;
+    font-size: 80px;
+    padding: 5px 0;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+.date {
+    letter-spacing: 0.3rem;
+    font-size: 24px;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
